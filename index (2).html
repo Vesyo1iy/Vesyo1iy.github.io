@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+  <link rel="stylesheet" href="styles.css"> <!-- Добавляем кастомные стили -->
+
+  <!-- Добавляем Font Awesome для иконок -->
+  <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+
+  <title>Мой сайт с Bulma</title>
+</head>
+<body>
+
+  <!-- Навигационная панель -->
+  <nav class="navbar is-info" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="https://bulma.io">
+        <img src="images/bulma-logo.png" width="112" height="28" alt="Bulma">
+      </a>
+
+      <!-- Меню навигации справа -->
+      <div class="navbar-item is-hidden-desktop is-hidden-tablet">
+        <div class="field is-grouped">
+          <p class="control">
+            <a class="button is-light" href="#">
+              <span class="icon">
+                <i class="fas fa-home"></i>
+              </span>
+              <span>Главная</span>
+            </a>
+          </p>
+          <p class="control">
+            <a class="button is-light" href="#">
+              <span class="icon">
+                <i class="fas fa-info-circle"></i>
+              </span>
+              <span>О нас</span>
+            </a>
+          </p>
+          <!-- Добавьте другие пункты меню, если необходимо -->
+        </div>
+      </div>
+
+      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+
+    <!-- Меню навигации справа в десктопной и планшетной версии -->
+    <div id="navbarBasicExample" class="navbar-menu">
+      <div class="navbar-end">
+        <div class="navbar-item">
+          <div class="buttons">
+            <a class="button is-light" href="#">
+              <span class="icon">
+                <i class="fas fa-home"></i>
+              </span>
+              <span>Главная</span>
+            </a>
+            <a class="button is-light" href="#">
+              <span class="icon">
+                <i class="fas fa-info-circle"></i>
+              </span>
+              <span>О нас</span>
+            </a>
+            <!-- Добавьте другие пункты меню, если необходимо -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Остальной контент сайта -->
+
+</body>
+</html>
+
+
+  <!-- Навигационная панель -->
+  <nav class="navbar" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="https://bulma.io">
+        <img src="https://bulma.io/images/bulma-logo.png" width="112" height="28" alt="Bulma">
+      </a>
+    </div>
+  </nav>
+
+  <!-- Секция контента -->
+   <section class="section">
+    <div class="container">
+      <div class="columns">
+        <div class="column">
+          <h2 class="title is-4">О CSS-фреймворках</h2>
+          <p>
+            CSS-фреймворк — это набор предопределенных стилей и компонентов, который упрощает процесс создания пользовательского интерфейса веб-сайта.
+          </p>
+          <p>
+            Он предоставляет готовые стили, сетки, компоненты и другие элементы, позволяя вам быстро и легко создавать стильные и отзывчивые веб-страницы.
+          </p>
+        </div>
+        <div class="column">
+          <h2 class="title is-4">Bulma CSS-фреймворк</h2>
+          <p>
+            Bulma — это современный CSS-фреймворк, построенный с использованием Flexbox. Он легковесен, прост в использовании и адаптивен для различных устройств.
+          </p>
+          <p>
+            Bulma предоставляет широкий набор компонентов, таких как навигационные панели, модальные окна, таблицы и другие, а также гибкую сетку для создания макетов.
+          </p>
+          <p>
+            Вы можете узнать больше о Bulma на их <a href="https://bulma.io/documentation/">официальном сайте</a>.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Дополнительный контент -->
+<section class="section">
+    <div class="container">
+      <div class="columns">
+        <div class="column">
+          <h2 class="title is-4">О CSS-фреймворках</h2>
+          <p>
+            CSS-фреймворк — это набор предопределенных стилей и компонентов, который упрощает процесс создания пользовательского интерфейса веб-сайта.
+          </p>
+          <p>
+            Он предоставляет готовые стили, сетки, компоненты и другие элементы, позволяя вам быстро и легко создавать стильные и отзывчивые веб-страницы.
+          </p>
+        </div>
+        <div class="column">
+          <h2 class="title is-4">Bulma CSS-фреймворк</h2>
+          <p>
+            Bulma — это современный CSS-фреймворк, построенный с использованием Flexbox. Он легковесен, прост в использовании и адаптивен для различных устройств.
+          </p>
+          <p>
+            Bulma предоставляет широкий набор компонентов, таких как навигационные панели, модальные окна, таблицы и другие, а также гибкую сетку для создания макетов.
+          </p>
+          <p>
+            Вы можете узнать больше о Bulma на их <a href="https://bulma.io/documentation/">официальном сайте</a>.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!-- Раздел с изображением Bulma -->
+  <section class="section">
+    <div class="container">
+      <h2 class="title is-4">Логотип Bulma</h2>
+      <p>
+        Вот логотип Bulma, который вы можете использовать на своем сайте:
+      </p>
+      <figure class="image is-128x128">
+        <img src="img/1.jpg" alt="Bulma Logo">
+        <img src="img/2.jpg" alt="Bulma Logo">
+      </figure>
+    </div>
+  </section>
+  
+
+  <!-- Подвал -->
+  <footer class="footer">
+    <div class="content has-text-centered">
+      <p>
+        <strong>Мой сайт с Bulma</strong> by Ваше Имя.
+      </p>
+    </div>
+  </footer>
+
+</body>
+</html>
